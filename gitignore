@@ -18,6 +18,8 @@ env/
 # Saved models / artifacts
 *.joblib
 *.pkl
+# ...but DO commit the deployed model so Streamlit can load it
+!spam_model.joblib
 
 # OS / editor cruft
 .DS_Store
