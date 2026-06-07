@@ -1,0 +1,25 @@
+# Dataset (auto-downloaded by spam_classifier.py — no need to commit)
+enron_spam_data.csv
+enron_spam_data.zip
+*.csv
+*.zip
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Saved models / artifacts
+*.joblib
+*.pkl
+
+# OS / editor cruft
+.DS_Store
+.idea/
+.vscode/
